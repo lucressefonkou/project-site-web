@@ -1,3 +1,15 @@
+
+/* Navigation */
+
+#menu a{color:white; text-decoration: none;}
+#menu ul{list-style: none;}
+#menu ul li ul {display:none;}
+#menu ul li:hover ul {display:block;}
+#menu ul.niv1>li{float:right;}
+#menu li ul {padding:10px; position: absolute;}
+#menu li {width:145px; position: relative;}
+#menu li li ul {top:0px;left:145px;}
+
 .content-container {
     background-color:blue;
     display: block;
@@ -9,69 +21,120 @@
     top: 0; left: 0;right: 0;
 }
 
+.text1{position: absolute; text-align: center; left: 150px;}
 p {
     position: absolute;
     top: 10px;
     right: 80px;
+    text-align: center;
+    padding-left: 30px;
   }
 
-.logo {
-    bottom:20px;
+    a.bouton {
+    border-width: 0px!important;
+    font-size: 20px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif!important;
+    background-color: #385ccd;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: 600!important;
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3)!important;
+    display: inline-block;
+    color: inherit;
+    text-shadow: none;
+    text-decoration: none;
 }
 
-#menu ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
-    text-align:left;
-    }
-   #menu li {
-    float: right;
-    margin:0;
-    padding:5px;
-    background-color:rgba(0,0,0,0);
-    }
-   #menu li a {
-    display:block;
-    width:150px;
-    color:white;
-    text-decoration:none;
-    padding:5px;
-    }
-   #menu li a:hover {
-    color:#FFD700;
-    }
-    #menu ul li ul {
-        display:none;
-        }
+.bouton{
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    line-height: 1.7em!important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+        transition: all .2s;}
 
-        #menu ul li:hover ul {
-            display:block;
-            }
-           #menu li:hover ul li {
-            float:none;
-            }
-            #menu li ul {
-                position:absolute;
-                }
-                a.bouton {
-                    padding: 15px 40px;
-                    background: #46a28d;
-                    color: #FFFFFF;
-                    font-weight: bold;
-                    font-size: 25px;
-                    }
-                    a.bouton2:hover {
-                    background: #570906;
-                    color: #5EB6DD;
-                    }
+        a {
+    color: #2ea3f2;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
 
-                    body {
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
                         background-image: url(http://www.kola-academy.com/wp-content/uploads/2020/05/background.png);
+                        background-repeat: no-repeat;
+                        background-position: top center;
+                        background-size: cover;
                     }
 
                     h1,h2{color:white}
 
+                    html {
+                        height: 100%;
+                      }
+                      body {
+                        min-height: 100%;
+                        margin: 0;
+                        padding: 0;
+                      }
+
+body {position: relative;}
+
+html, body {
+	height: 115%;
+	margin: 0; padding: 0;
+}
+body {
+	width: 100%;
+}
+
+#blocs{background-color:rgb(154, 160, 166);}
+
+footer{
+background:rgb(25, 25, 165);
+position: absolute;
+bottom:0;
+width:100%;
+padding-top:50px;
+height:150px;
+margin:0;
+border: 0;
+left: 0; 
+right: 0;
+}
+.footer-head{text-align: left;}
+#par{background-color:white;
+    text-align: left;}
+
+
+.bloc-contact{text-align: left;}
 
 
                 li>a:only-child:after { content: ”; }
