@@ -8,6 +8,7 @@
     <title>K.A</title>
 </head>
 <body>
+    <div id=bloc-page>
 
     <div class="content-container">
         <header>
@@ -21,23 +22,21 @@
                 </span>
             </div>
         </div>
+    </div>
     
 <br><br>
-        <div id="logo-kola">
+        <div class="logo-kola">
             <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/logo.png" alt="Kola Academy" data-height-percentage="76" data-actual-width="199" data-actual-height="64">
         </div>
 
     <nav>
         <div id=menu>
         <ul class=niv1>
-            <li><a href="#">  
-                <div id="langue">Français</a>
-            <ul>
-                <li><a href="#">Anglais</a></li>
-            </ul></li>
-
+            <li id="Francais">
+            <a title="Français" href="#"><img class="francais" src="http://www.kola-academy.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" alt=""><span class="langue">Français</span></a>
             </li>
-            <li><a href="#">Blog</a></li>
+                
+            <li class="blog"><a href="#">Blog</a></li>
             <li><a href="#">A propos de nous</a>
                 <ul class=niv2>
                     <li><a href="#">Découvrir Kola Academy</a></li>
@@ -71,122 +70,160 @@
                         <li><a href="#">Data Analyst (20 semaines – Full time)</a></li>
                     </ul></li>
             
-        
+                </ul>
         </ul>
+        </div>
     </nav>
     </header>
 
+
     <div id=after-header> <!--Fin du bloc contenant les 2 titres,le bouton et les logos d'app-->
     <div id="titre_principal"> 
-        <h1> INVESTISSEZ DANS VOTRE AVENIR !</h1>
-        <h2> Nous développons la prochaine génération de leaders technologiques
-            grâce à des formations axées sur les besoins du marché.</h2>
-    </div>
+        <h1> INVESTISSEZ DANS VOTRE AVENIR !</h1></div>
+    <div id=titre_second>
+        <h2> Nous développons la prochaine génération de leaders technologiques <br>
+            grâce à des formations axées sur les besoins du marché.</h2></div>
             <br><br><br><br>
-    <div>
+    <div id="bouton">
         <a href="#" class="bouton">Candidatez</a>
     </div>
     
-            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br>
 
     <div id="logos-dapp">
-            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/adroidicon.png" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/djangoicon.png" alt="" title="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/javaicon.png" alt="" title="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/pythonicon.png" alt="" title="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/developericon.png" alt="" title="">
+        <div class="logo-dapp">
+            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/adroidicon.png" alt=""/>
+            <span>Développez votre première application Mobile.</span>
+        </div>
+        <div class="logo-dapp">
+            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/djangoicon.png" alt="" title="" />
+            <span>Langage puissant pour les gros projets.</span>
+        </div>
+        <div class="logo-dapp">
+            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/javaicon.png" alt="" title="">
+            <span>Langage puissant pour les gros projets.</span>
+        </div>
+        <div class="logo-dapp">
+            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/pythonicon.png" alt="" title="">
+            <span>Développez votre première application Web.</span>
+        </div>
+        <div class="logo-dapp">
+        <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/developericon.png" alt="" title="">
+        <span>Intégrez une communauté de developpeurs.</span>
+    </div>
     </div>
     </div> <!--Fin du bloc contenant les 2 titres, le bouton et les logos d'app-->
-<br><br><br><br><br>
-<section id=blocs>
-    <div>
-    <div class=titre1>
-    <h1>NOTRE APPROCHE PÉDAGOGIQUE</h1>
-    </div>
-    <div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section>
+    <div id="blocs">
+
+    <p class=titre1>NOTRE APPROCHE PÉDAGOGIQUE</p>
+    <div class="bloc" >
         <h2>Apprendre à apprendre:</h2>
         <h3>Avec la certitude que les technologies changent constamment, il faut savoir que nous apprendrons toujours. Par conséquent, nous vous apprenons à rechercher des sources de connaissances qui vous seront utiles tout au long de votre parcours professionnel.
         </h3>
     </div>
-    <div>
+    <div class="bloc">
         <h2>Apprendre les bases:</h2>
         <h3>De nouveaux outils apparaissent
             chaque jour. C’est pourquoi il est nécessaire de connaître les
             fondamentaux et la logique, en plus d’acquérir une réflexion stratégique et critique de façon à determiner comment et quand appliquer un nouvel outil dans sa vie quotidienne.</h3>
     </div>
-    <div>
+    <div class="bloc">
         <h2>Apprendre en faisant:</h2>
         <h3>Apprenez la théorie et son application dans la pratique. Lorsque nous
             mettons la connaissance à l’épreuve, des doutes surgissent. Par conséquent, la pratique fait partie intégrante de nos cours.</h3>
     </div>
-    <div>
+    <div class="bloc">
         <h2>Apprendre des autres:</h2>
         <h3>L’échange de connaissances est constant dans toutes les classes. Nos enseignants et étudiants partagent leurs expériences et leurs connaissances, générant l’intégration et le réseautage.</h3>
     </div>
-
-    <section>
-        <div>
-<h1>
+    </div>
+</section>
+        <div class="buts">
+<h1 class="but" id="but">
     BUTS
 </h1>
-<h3>
+<h3 class="but">
     Le marché numérique en Afrique au sud du Sahara compte près de 950 mille postes vacants* pour les professionnels ayant des compétences numériques avancées. Pour être compétitif aujourd’hui, un professionnel doit savoir comment créer de la technologie et pas seulement l’utiliser comme un outil
 </h3>
-<h3>*Source : Banque Mondiale</h3>
+<h3 id="asterix">*Source : Banque Mondiale</h3>
         </div>
-    </section>
+<div>
 
-    <div>
-<h1>NOS FORMATIONS</h1>
-<h3>grâce à nos formations, optimisez vos chances de décrocher votre premier emploi ou ouvrez-vous de nouvelles perspectives de carrière en 20 semaines seulement. Nos formations s’inscrivent dans une optique professionalisante et s’adresse à tous types de publics : jeunes bacheliers, étudiants, actifs en reprise d’études ou en formation continue.</h3>
+    <div id="formations">
+<h1 class="formation">NOS FORMATIONS</h1>
+<h3 class="text-formation">grâce à nos formations, optimisez vos chances de décrocher votre premier emploi ou ouvrez-vous de nouvelles perspectives de carrière en 20 semaines seulement. Nos formations s’inscrivent dans une optique professionalisante et s’adresse à tous types de publics : jeunes bacheliers, étudiants, actifs en reprise d’études ou en formation continue.</h3>
     </div>
 
-    <div>
-
+<div id="boxes">
+    <div class="box">
+        <span class="animation-box"></span>
+        <h4><span>Front-end developer</span></h4>
+        <span id="pet">Formation développeur front-end : deviens dévelopeur front-end en 20 semaines et apprends à coder en Javascript / React/ Angular.</span>
+    </div>
+    <div class="box">
+        <span class="animation-box"></span>
+        <h4><span>FullStack developer</span></h4>
+        <span id="pet">Formation développeur web intensive : deviens développeur FullStack en 20 semaines et apprends à coder en Javascript, PHP, Python ou Java. </span>
+    </div>
+    <div class="box">
+        <span class="animation-box"></span>
+        <h4><span>Data analyst</span></h4>
+        <span id="pet">Formation Data analyst : deviens opérationnel en 20 semaines dans l’analyse et l’utilisation des outils de traitement de la donnée.</span>
+    </div>
+    <div class="box">
+        <span class="animation-box"></span>
+        <h4><span> cybersécurité</span></h4>
+        <span id="pet"> Formation d’analyste en cybersécurité : forme toi à l’analyse des alertes de sécurité et assure la réponse aux incidents de sécurité informatique en entreprise.</span>
 
     </div>
 
-    </div>
+</div>
+</div>
 
-</section>
-
-
-
-
-        <div id=footer>
         <footer>
-            <div class=footer-head>
-            <img src="http://www.kola-academy.com/wp-content/uploads/2020/05/logo.png" alt="Kola Academy" id="logo" data-height-percentage="76" data-actual-width="199" data-actual-height="64">
-        <div id="par"><p>"Nous sommes une ecole qui forme dans le developpement des applications Web et Mobile et octroi des certifications à la fin de la formation."</p></div>
-    </div>
-        <div class="bloc-contact" ><h4><p><span>Contacts</span></p></h4>
+            <div id="footer">
+            <p><img src="http://www.kola-academy.com/wp-content/uploads/2020/05/logo.png" alt="Kola Academy" id="logo" data-height-percentage="76" data-actual-width="199" data-actual-height="64"></p>
+            
+        <div id="par"><span>Nous sommes une ecole qui forme dans le developpement des applications Web et Mobile et octroi des certifications à la fin de la formation.</span></div>
+        <div class="bloc-contact" ><h4><span>Contacts</span></h4>
             <div class=low-contact>
-                <p>
                     <span>
                         Téléphone:&nbsp; 
                         <span style="color: #ffcc00;">+237 698124860</span>
                     </span>
-                </p>
-
-                <p>
                     <span>
-                        Email:&nbsp;&nbsp;
-                        <a href="#"><span style="color: #ff0000;"><span style="color: #ffcc00;">contact@kola-academy.com</span></span></a>
+                        Email:&nbsp;
+                        <a href="#"><span style="color: #ff0000;"><span style="color: #ffcc00;">contact@kola-academy.com</span></a>
                     </span>
-                </p>
-                <p>
                     <span>
                         Localisation:&nbsp; 
                         <span style="color: #ffcc00;">Antenne Kotto</span>
                     </span>
-                </p>
             </div>
         </div>
-
-    
-    
-    </footer>
-</div>
+        <div id="pages" >
+            <span>Pages</span>
+            <ul>
+                <li><span><a href="#" style="color: #ffffff;">Accueil</a></span></li>
+                <li><span><a href="#" style="color: #ffffff;">Découvrir Kola</a></span></li>
+                <li><span><a href="#" style="color: #ffffff;">Rejoindre l’équipe</a></span></li>
+                <li><span><a href="#" style="color: #ffffff;">Rejoindre l’équipe</a></span></li>
+            </ul>
+        </div>
+        <div id="formations">
+            <span>Formations</span>
+            <ul>
+                <li><span><a href="#" style="color: #ffffff;">Front-end Developer</a></span></li>
+                <li><a href="#"><span style="color: #ffffff;">Full Stack Web Developer</span</a></li>
+                <li><a href="#"><span style="color: #ffffff;">Data Analyst</span></a></li>
+                <li><a href="#"><span style="color: #ffffff;">Analyst Cybersecurity</span></a></li>
+            </ul>
+        </div>
+    </div>
+        </footer>
+    </div>
 
 
 
