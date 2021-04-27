@@ -1,0 +1,353 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+#container {
+	margin: 0 auto;
+}
+
+nav {
+	margin: 50px 2 00px;
+	background-color: transparent;
+        & ul {
+            padding: 0;
+            margin: 0;
+            list-style:none;
+            position: relative;
+            float: right;
+                & li {
+                    display:inline-block;
+                    background-color:transparent;
+                }
+        }
+}
+
+nav a {
+	display:block;
+	padding:12px 30px;	
+	color:#FFF;
+	font-size:15px;
+	line-height: 40px;
+	text-decoration:none;
+        &:hover { 
+	        background-color: #2a7be4;
+            z-index: 1000;
+        }
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+    z-index: 1000;
+	top: 50px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+    z-index: 1000;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:220px;
+	display:list-item;
+	position: relative;
+	right: 20px;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-50px; 
+	left:220px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ''; }
+li > a:only-child:after { content: ''; }
+
+.fr, .en {
+	display: inline-block;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+	width: 15px;
+	height: 15px;
+	background: #aaa;
+	border-radius: 50%;
+	position: relative;
+	top: 2px;
+	overflow: hidden;
+  }
+
+
+#bloc_page
+{
+    width:0;
+    margin:auto;
+}
+
+.content-container {
+    background-color:#385ccd;
+    display: block;
+    border:none;
+    padding:0;
+    margin:0;
+    height: 35px;
+    position: fixed;
+    top: 0; left: 0;right: 0;
+
+    }
+
+
+#titre_principal{position: absolute; font-size: 140%; top: 230px; right: 70px;font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;}
+#titre_second{position: absolute; top:310px; left: 230px;font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;}
+#logos-dapp{position: absolute;}
+.logo-dapp{color:white; text-decoration-style:solid; font-weight: bold; font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;}
+
+.text1{position: absolute; text-align: center; left: 150px;}
+p {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  #bouton{position: relative;top: 290px;left: 230px;}
+
+    a.bouton {
+    border-width: 0px!important;
+    font-size: 25px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif!important;
+    background-color: #385ccd;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: 600!important;
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+    box-shadow: 0px 12px 18px -6px rgba(15, 14, 14, 0.3)!important;
+    display: inline-block;
+    color: white;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.bouton{
+    position: relative;
+    padding: .3em 1em;
+    border: 2px solid;
+    -webkit-border-radiu: 3px;
+    -moz-border-radiu: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    line-height: 1.7em!important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+        transition: all .2s;}
+
+
+        
+        a {
+    color: #2ea3f2;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+                        background-image: url(http://www.kola-academy.com/wp-content/uploads/2020/05/background.png);
+                        background-repeat: no-repeat;
+                        background-position: top center;
+                        background-size: cover;
+                    }
+
+                    #after-header h1,h2{color:white}
+
+                    html {
+                        height: 280%;
+                      }
+                      body {
+                        min-height: 100%;
+                        margin: 0;
+                        padding: 0;
+                      }
+
+        .logo-kola img{
+         position:absolute; top:100px; left:165px;top:45px;
+         height: 75px;
+        }
+
+body {position: relative;}
+
+html, body {
+	height:115%;
+	margin: 0; padding: 0;
+}
+
+footer img{position:absolute; top:100px; right:1200px;top:45px;
+    height: 55px;}
+
+body {
+    width:unset;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+#blocs{background-color:rgb(154, 160, 166);position: relative;bottom:0;}
+.bloc{
+    background-color: lightgrey;
+    width: 300px;
+    border: 0;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #blocs,#logos-dapp {
+    display: flex; top:50%;
+  }
+
+  .logo-dapp {flex: 1; 
+ padding: 1em; margin: 100px; float: bottom;}
+
+  .bloc {
+    display: block;
+    flex: 1; 
+    padding: 1em;
+    margin-top: 130px;
+    text-align: center;
+  }
+  .bloc h2{color: #ff0366;}
+  .bloc h3{font-weight: normal;font-size: 15px;line-height: 30px;}
+  #pet{line-height: 30px;}
+
+.titre1{text-align:center; color: #ff0366;margin: 20px;font-size: 35px;}
+.buts{background-color:#ff0366;color:white; height:350px;padding: 5%;}
+.but{text-align: center;font-size: 23px;font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;font-weight:normal;-webkit-font-smoothing: antialiased;}
+#but{font-size: 40px;font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;font-weight: normal;}
+#asterix{text-align: right;}
+#form{height: 150px;color: #333;text-align: center; margin: 60px;font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    line-height: 1em;}
+    .form{font-size: 40px;}
+    .text-formation{line-height: 1.7em;text-align: center;box-sizing: border-box;font-weight: normal;font-size: 20px}
+#boxes{display:flex;margin: 100px;text-align: center;}
+.box{box-shadow: 10px 10px 10px rgb(189, 185, 185);
+    transition: transform 300ms ease 0ms,border-radius 300ms ease 0ms,border 300ms ease 0ms,background-color 300ms ease 0ms;opacity: 1;animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+}
+
+.animation-box{color: #ffffff;transition: transform 300ms ease 0ms,border-radius 300ms ease 0ms,border 300ms ease 0ms,background-color 300ms ease 0ms;opacity: 1;animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+background-color: #fed800;opacity: 1;
+    -webkit-animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+    -moz-animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+    -o-animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+    animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+    padding: 25px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    font-size: 48px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: ETmodules;
+    font-size: 96px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    text-transform: none;
+    content: attr(data-icon);
+    speak-as: none;}
+
+footer{
+display:flex;
+position: relative;
+background:rgb(25, 25, 165);
+bottom:0;
+width:100%;
+padding-top:25px;
+height:500px;
+margin:0;
+border: 0;
+left: 0; 
+right: 0;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+footer p
+{
+    font-size: 0.8em;}
+
+
+.footer-head{text-align: left;}
+#par{background-color:white;
+    text-align: left;}
+#footer{display: flex;}
+
+.bloc-contact{text-align: left;}
+
+#par{
+    background-color:transparent;
+    width: 260px;
+    border: 0;
+    padding: 50px;
+    margin: 100px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .bloc-contact{background-color:transparent;
+    width: 280px;
+    border: 0;
+    padding: 50px;
+    margin: 90px;
+    color: white;
+    font-size: 12px;
+    line-height: 35px;}
+
+    #pages{width: 280px;
+        border: 0;
+        padding: 50px;
+        margin: 90px;
+        color: white;
+        font-size: 12px;
+        line-height: 20px;}
+
+#formations{text-align: left;color: white;}
